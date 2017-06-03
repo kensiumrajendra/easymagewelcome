@@ -1,14 +1,19 @@
 {
   "name": "easymage/welcome",
   "description": "Sample welcome magento 2 module using composer",
+  "require": {
+        "magento/magento-composer-installer": "*"
+    },
   "type": "magento2-module",
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Rajendra",
-      "email": "mails4rajendrak@gmail.com"
-    }
-  ],
+   "extra": {
+        "map": [
+            [
+                "*",
+                "EasyMage/Welcome"
+            ]
+        ]
+    },
   "autoload": {
     "files": [
       "registration.php"
