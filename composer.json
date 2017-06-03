@@ -15,12 +15,12 @@
         ]
     },
   "autoload": {
-    "files": [
-      "registration.php"
-    ],
-    "psr-4": {
+      "psr-4": {
       "EasyMage\\Welcome\\": "",
     },
+    "files": [
+      "registration.php"
+    ]
   },
   "repositories": [
         {
