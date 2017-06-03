@@ -1,0 +1,20 @@
+{
+  "name": "easymage/welcome",
+  "description": "Sample welcome magento 2 module using composer",
+  "type": "magento2-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rajendra",
+      "email": "mails4rajendrak@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "EasyMage\\Welcome\\": ""
+    }
+  }
+}
