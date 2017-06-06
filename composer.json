@@ -5,7 +5,7 @@
         "magento/magento-composer-installer": "*"
     },
   "version": "alpha",
-  "type": "magento2-module",
+  "type": "magento2-library",
   "license": "MIT",
    "extra": {
         "map": [
